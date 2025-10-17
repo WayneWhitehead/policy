@@ -1,0 +1,86 @@
+Privacy Policy for Degen
+
+Last updated: October 17, 2025
+
+Introduction
+
+Degen (“we”, “our”, or “the app”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard information when you use the Degen Android app (the “App”). By downloading or using the App, you agree to the collection and use of information as described in this policy.
+
+Controller / Contact
+
+The App is published by the developer of Degen. For privacy-related questions, data access or deletion requests, or to report a security issue, please contact: [YOUR CONTACT EMAIL OR URL]. Replace this placeholder with a working contact address or a link to your support page before publishing.
+
+Data We Collect
+
+We collect the following categories of data when you use the App. Items listed below include the typical data types that Firebase and Google Mobile Ads may collect on our behalf.
+
+1) App activity and analytics
+- What: Usage events and logs (screens visited, button taps, engagement metrics). Firebase Analytics is used to collect this data.
+- Purpose: Improve app performance and user experience; product analytics.
+- Shared with: Google (Firebase Analytics).
+
+2) Diagnostics and performance data
+- What: Crash reports, stack traces, performance traces, and device information (model, OS version). Collected via Firebase Crashlytics and Firebase Performance Monitoring.
+- Purpose: Fix crashes and performance issues; improve reliability.
+- Shared with: Google (Crashlytics, Firebase Performance).
+
+3) Device and advertising identifiers
+- What: Advertising ID and other device identifiers used by Google SDKs.
+- Purpose: Advertising, analytics, fraud detection, and ad measurement.
+- Shared with: Google and third-party advertising partners (via AdMob).
+
+4) User-provided content and files
+- What: If you create, upload, or save content in the App (for example, custom packs, cards, or images), that content and any metadata you attach are stored in our Firebase Firestore and Firebase Storage.
+- Purpose: Provide app features that allow users to create or store content.
+- Shared with: Google (Firebase services) as a storage and database provider. We do not sell your content to third parties.
+
+5) Advertising data
+- What: Ad-related data (impressions, clicks, ad IDs) collected by Google Mobile Ads (AdMob).
+- Purpose: Serve and measure personalized and non-personalized ads.
+- Shared with: Google and third-party advertisers as described in Google’s policies.
+
+Data We Do NOT Collect (unless you expressly provide it)
+
+- We do not collect contacts, SMS messages, call logs, or precise location data from your device.
+- The App does not require account sign-in by default. If you sign in using a separate service or provide personal details in user-generated content, that information may be stored in Firestore — in that case, you should consider that personal information may be processed.
+
+Third Parties and Processors
+
+We use Google Firebase services and Google Mobile Ads (AdMob) to power analytics, crash reporting, storage, and advertising. These services act as data processors and may collect and process data on our behalf. Google’s use of data is governed by Google’s Privacy Policy and their terms for Firebase and AdMob.
+
+How We Use Your Data
+
+- Provide and maintain the App features.
+- Diagnose and fix technical issues.
+- Understand and improve how users interact with the App.
+- Serve ads and measure ad performance.
+
+Data Retention
+
+We retain user-created content and related metadata until you delete it, or until the underlying Firebase project data is removed. Analytics and diagnostics data are retained according to Firebase’s retention policies and our internal retention rules — typically for a limited period required for analysis and troubleshooting.
+
+Security
+
+We take reasonable measures to protect your data. However, no internet or electronic storage is completely secure. We recommend you avoid sharing highly sensitive personal information in user-generated content.
+
+Important developer/security notes
+
+- The App uses Firebase configuration (client-side) to connect to Firebase services — this is normal for mobile apps. Do NOT publish server-side credentials or service account private keys in client repositories. If a service account key (for example, a `firebase-admin` JSON key) appears in a client repository, it must be removed and rotated immediately.
+
+Your Choices and Rights
+
+- Opting out of analytics: Firebase Analytics collection can be disabled. If you would like us to disable analytics collection for your account or device, contact us at [YOUR CONTACT EMAIL OR URL].
+- Ads personalization: You can opt out of personalized ads via Android ad settings, or set ad personalization preferences in your Google account. For device-level ad choices: open Google Settings -> Ads -> toggle “Opt out of Ads Personalization.”
+- Access, correction, deletion: If you want to access, correct, or delete personal data we hold about you (including user-generated content), contact us at [YOUR CONTACT EMAIL OR URL]. We'll respond in accordance with applicable law.
+
+Children
+
+The App is not intended for children under the age of 13 (or the equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If you believe we have collected data from a child, please contact us to request removal.
+
+International Transfers
+
+Data collected through the App may be stored and processed in the United States or other countries where Firebase and Google operate. By using the App, you consent to such transfers.
+
+Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will post the new Privacy Policy in this repository and update the “Last updated” date at the top of this file. If changes are material, we will provide a prominent notice in the App or via the contact information you provided.
