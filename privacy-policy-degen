@@ -1,86 +1,95 @@
-Privacy Policy for Degen
-
+Privacy Policy — Degen
 Last updated: October 17, 2025
 
 Introduction
 
-Degen (“we”, “our”, or “the app”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard information when you use the Degen Android app (the “App”). By downloading or using the App, you agree to the collection and use of information as described in this policy.
+Degen (“we”, “our”, or “the App”) is committed to protecting your privacy and complying with applicable law. This Privacy Policy explains what information the Degen Android app (the “App”) collects, why, how it is used and shared, how long it is retained, and the rights you have.
 
 Controller / Contact
 
-The App is published by the developer of Degen. For privacy-related questions, data access or deletion requests, or to report a security issue, please contact: [YOUR CONTACT EMAIL OR URL]. Replace this placeholder with a working contact address or a link to your support page before publishing.
+Data controller (responsible party): Wayne Whitehead (individual)
 
-Data We Collect
+Contact email: whiteheadwayne10@gmail.com
 
-We collect the following categories of data when you use the App. Items listed below include the typical data types that Firebase and Google Mobile Ads may collect on our behalf.
+Postal address: 1 Vrede Ave, Bryanston, South Africa
 
-1) App activity and analytics
-- What: Usage events and logs (screens visited, button taps, engagement metrics). Firebase Analytics is used to collect this data.
-- Purpose: Improve app performance and user experience; product analytics.
-- Shared with: Google (Firebase Analytics).
+Responsible person for privacy matters: Wayne Whitehead
 
-2) Diagnostics and performance data
-- What: Crash reports, stack traces, performance traces, and device information (model, OS version). Collected via Firebase Crashlytics and Firebase Performance Monitoring.
-- Purpose: Fix crashes and performance issues; improve reliability.
-- Shared with: Google (Crashlytics, Firebase Performance).
+The App is published by the developer of Degen. This policy URL should be published on the App store listing and in-app where appropriate.
 
-3) Device and advertising identifiers
-- What: Advertising ID and other device identifiers used by Google SDKs.
-- Purpose: Advertising, analytics, fraud detection, and ad measurement.
-- Shared with: Google and third-party advertising partners (via AdMob).
+Assumptions and legal scope
 
-4) User-provided content and files
-- What: If you create, upload, or save content in the App (for example, custom packs, cards, or images), that content and any metadata you attach are stored in our Firebase Firestore and Firebase Storage.
-- Purpose: Provide app features that allow users to create or store content.
-- Shared with: Google (Firebase services) as a storage and database provider. We do not sell your content to third parties.
+This policy is written to satisfy Google Play’s Data safety requirements (https://support.google.com/googleplay/android-developer/topic/9877467) and to align with the primary developer jurisdiction, which we assume is South Africa (Protection of Personal Information Act, 2013 — POPIA). Where applicable, we also describe common data subject rights generally recognized under international standards (for example, GDPR-style rights) so users and app reviewers understand how requests are handled. If your primary jurisdiction differs, update the contact and legal references accordingly.
 
-5) Advertising data
-- What: Ad-related data (impressions, clicks, ad IDs) collected by Google Mobile Ads (AdMob).
-- Purpose: Serve and measure personalized and non-personalized ads.
-- Shared with: Google and third-party advertisers as described in Google’s policies.
+Summary — what we collect
 
-Data We Do NOT Collect (unless you expressly provide it)
+The App uses Firebase and Google Mobile Ads (AdMob). In normal operation the App collects the following categories of data:
 
-- We do not collect contacts, SMS messages, call logs, or precise location data from your device.
-- The App does not require account sign-in by default. If you sign in using a separate service or provide personal details in user-generated content, that information may be stored in Firestore — in that case, you should consider that personal information may be processed.
+- Device or other identifiers (including Advertising ID) — collected by Google Mobile Ads and some Firebase SDKs.
+- App activity and usage analytics (events, screens, engagement) — collected by Firebase Analytics.
+- Diagnostics and performance data (crash reports, stack traces, performance traces, device model/OS) — collected by Firebase Crashlytics and Firebase Performance Monitoring.
+- Advertising data (ad impressions, clicks) — collected by AdMob for ad delivery and measurement.
 
-Third Parties and Processors
+Important: the telemetry the App collects is not used by the App owner to identify a specific natural person in normal operation (no PII collected by default). The App does not provide any mechanism for users to upload or store personal content; there is nowhere in the App where users submit content that is stored by the service. If you believe personal information about you has been stored by other means, contact the data controller at the address above.
 
-We use Google Firebase services and Google Mobile Ads (AdMob) to power analytics, crash reporting, storage, and advertising. These services act as data processors and may collect and process data on our behalf. Google’s use of data is governed by Google’s Privacy Policy and their terms for Firebase and AdMob.
+Why we collect this data (purposes)
 
-How We Use Your Data
+We collect data for these purposes:
 
-- Provide and maintain the App features.
-- Diagnose and fix technical issues.
-- Understand and improve how users interact with the App.
-- Serve ads and measure ad performance.
+- App functionality: enabling basic app operations and feature behavior.
+- Diagnostics & reliability: detecting and fixing crashes, monitoring performance.
+- Product improvement & analytics: understanding feature usage and user flows.
+- Advertising & monetization: serving ads, measuring impressions and clicks, and improving ad quality.
 
-Data Retention
+Legal basis (POPIA / reasonable basis statement)
 
-We retain user-created content and related metadata until you delete it, or until the underlying Firebase project data is removed. Analytics and diagnostics data are retained according to Firebase’s retention policies and our internal retention rules — typically for a limited period required for analysis and troubleshooting.
+- For operational diagnostics and analytics we rely on legitimate interest to maintain and improve the App and ensure a secure, functional product.
+- For ads we rely on the mobile platform and advertising ecosystem (AdMob) which uses device/advertising identifiers for ad serving and measurement.
+- The App does not collect user-supplied personal content through an upload mechanism; if such functionality is added in future it will be described in an updated policy.
+
+No in‑App opt‑out for telemetry
+
+Because the App does not collect user-identifying personal profiles in normal operation, there is no in‑app toggle to disable telemetry or analytics. Some telemetry is required for core functionality (crash reporting, app stability). Users may opt out of personalized advertising at the device level (Android Settings → Google → Ads → Opt out of Ads Personalization) or within their Google account. Opting out of personalized ads does not prevent the App from collecting non-identifying analytics/diagnostic telemetry needed for operation.
+
+Data sharing and third parties
+
+We use Google services (Firebase and AdMob) as processors. Data types described above are shared with Google for storage, analytics, crash reporting and ad delivery. Ad-related data may be shared with third-party advertising partners per AdMob’s operation and Google’s terms. We do not sell personal data.
+
+Data retention
+
+- Analytics and diagnostics: retained according to Firebase defaults and internal troubleshooting needs; typically retained for a limited period used to analyze stability and usage.
+- Since the App does not store user-submitted content, there is no user-created content retention to report.
 
 Security
 
-We take reasonable measures to protect your data. However, no internet or electronic storage is completely secure. We recommend you avoid sharing highly sensitive personal information in user-generated content.
-
-Important developer/security notes
-
-- The App uses Firebase configuration (client-side) to connect to Firebase services — this is normal for mobile apps. Do NOT publish server-side credentials or service account private keys in client repositories. If a service account key (for example, a `firebase-admin` JSON key) appears in a client repository, it must be removed and rotated immediately.
-
-Your Choices and Rights
-
-- Opting out of analytics: Firebase Analytics collection can be disabled. If you would like us to disable analytics collection for your account or device, contact us at [YOUR CONTACT EMAIL OR URL].
-- Ads personalization: You can opt out of personalized ads via Android ad settings, or set ad personalization preferences in your Google account. For device-level ad choices: open Google Settings -> Ads -> toggle “Opt out of Ads Personalization.”
-- Access, correction, deletion: If you want to access, correct, or delete personal data we hold about you (including user-generated content), contact us at [YOUR CONTACT EMAIL OR URL]. We'll respond in accordance with applicable law.
+We use industry-standard measures to protect data in transit and at rest (HTTPS/TLS in transit; encryption at rest per Firebase/Google defaults). No system is completely secure; avoid sharing highly sensitive personal information in the App UI or via other channels.
 
 Children
 
-The App is not intended for children under the age of 13 (or the equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If you believe we have collected data from a child, please contact us to request removal.
+The App is not intended for children under 13 (or the equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If you believe we have collected a child’s information, contact whiteheadwayne10@gmail.com to request removal.
 
-International Transfers
+User rights and requests
 
-Data collected through the App may be stored and processed in the United States or other countries where Firebase and Google operate. By using the App, you consent to such transfers.
+- Right to access / correct: Because telemetry is non-identifying, there is no per-user telemetry profile to retrieve or correct. The App does not provide a mechanism for users to upload or store content; therefore there is no stored user content tied to individuals that the controller can retrieve.
+- Right to deletion: Per-user deletion of telemetry is not available because the App does not create user-identifiable telemetry records in normal operation.
+- To make requests: contact Wayne Whitehead at whiteheadwayne10@gmail.com with a clear subject line ("Privacy request - Degen"). We may ask for minimal information to verify requests and will handle them in accordance with applicable law.
 
-Changes to This Privacy Policy
+International transfers
 
-We may update this Privacy Policy from time to time. We will post the new Privacy Policy in this repository and update the “Last updated” date at the top of this file. If changes are material, we will provide a prominent notice in the App or via the contact information you provided.
+Data may be stored and processed in the United States or other locations where Firebase and Google operate. By using the App you consent to such transfers.
+
+Play Store / Data safety
+
+This policy is written to match the Play Console Data safety requirements. When completing the Play Console Data safety form, declare collection and sharing in the categories above (Analytics, Diagnostics, Device identifiers, Advertising). Link to this policy in your Play listing.
+
+Changes to this policy
+
+We may update this policy. If material changes occur, we will post an update at this URL and update the "Last updated" date.
+
+Contact
+
+For privacy questions or requests contact: Wayne Whitehead — whiteheadwayne10@gmail.com
+
+---
+
+Legal note: This policy is intended to be accurate for the app code and SDKs discovered in the repository and to follow Google Play guidance and POPIA-style protections. It does not constitute legal advice. If you require jurisdiction-specific legal compliance, consult a qualified privacy attorney in your jurisdiction.
